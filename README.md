@@ -5,6 +5,7 @@ Overview
 This project analyzes potable water consumption trends across suburbs and forecasts future demand using deep learning (LSTM). It also includes data visualization and geospatial mapping to provide insights for better water resource management.
 
 Dataset
+
 Potable Water Consumption by Suburb (2018-2024) [CSV]
 
 Suburb Boundaries GeoJSON – Used for geospatial visualization.
