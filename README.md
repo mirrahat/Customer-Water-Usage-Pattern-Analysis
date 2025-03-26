@@ -1,4 +1,4 @@
-# Water\*Consumption_Analysis&\_Forecasting
+# Water\_Consumption_Analysis&\_Forecasting
 
 Overview
 This project analyzes potable water consumption trends across suburbs and forecasts future demand using deep learning (LSTM). It also includes data visualization and geospatial mapping to provide insights for better water resource management.
