@@ -29,13 +29,29 @@ This project analyzes potable water consumption across different suburbs and for
 
 ## Project Structure
 
-Water_Consumption_Analysis/ ├── data/
-│ ├── potable_water_usage.csv │ ├── suburb_boundaries.geojson ├── notebooks/
-│ ├── eda_analysis.ipynb │ ├── forecasting.ipynb │ ├── geospatial_analysis.ipynb ├── models/
-│ ├── water_usage_model.h5 │ ├── scaler.pkl ├── visualizations/
-│ ├── consumption_trends.png │ ├── suburb_map.html ├── scripts/
-│ ├── water_forecasting.py │ ├── geospatial_visualization.py ├── requirements.txt
+## Project Structure
+
+```
+Water_Consumption_Analysis/
+├── data/
+│   ├── potable_water_usage.csv
+│   ├── suburb_boundaries.geojson
+├── notebooks/
+│   ├── eda_analysis.ipynb
+│   ├── forecasting.ipynb
+│   ├── geospatial_analysis.ipynb
+├── models/
+│   ├── water_usage_model.h5
+│   ├── scaler.pkl
+├── visualizations/
+│   ├── consumption_trends.png
+│   ├── suburb_map.html
+├── scripts/
+│   ├── water_forecasting.py
+│   ├── geospatial_visualization.py
+├── requirements.txt
 └── README.md
+```
 
 ## Results & Insights
 
