@@ -29,15 +29,13 @@ This project analyzes potable water consumption across different suburbs and for
 
 ## Project Structure
 
-Water_Consumption_Analysis
-│-- data/ # Raw datasets (CSV & GeoJSON)
-│-- notebooks/ # Jupyter Notebooks (EDA, Forecasting, Mapping)
-│-- models/ # Trained LSTM models
-│-- visualizations/ # Generated plots & interactive maps
-│-- water_forecasting.py # LSTM model script
-│-- geospatial_visualization.py # Mapping & GIS analysis script
-│-- requirements.txt # Dependencies
-│-- README.md # Project documentation
+Water_Consumption_Analysis/ ├── data/
+│ ├── potable_water_usage.csv │ ├── suburb_boundaries.geojson ├── notebooks/
+│ ├── eda_analysis.ipynb │ ├── forecasting.ipynb │ ├── geospatial_analysis.ipynb ├── models/
+│ ├── water_usage_model.h5 │ ├── scaler.pkl ├── visualizations/
+│ ├── consumption_trends.png │ ├── suburb_map.html ├── scripts/
+│ ├── water_forecasting.py │ ├── geospatial_visualization.py ├── requirements.txt
+└── README.md
 
 ## Results & Insights
 
